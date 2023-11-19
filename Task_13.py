@@ -27,12 +27,12 @@ for i in range(0,n):
     days.append(randint(-50,50))
 print(days)
 
-maxPeriod = 0
+max_Period = 0
 a=0
 for day in days:
     if day > 0:
         a = a + 1
-        if a > maxPeriod:
-            maxPeriod = a
+        if a > max_Period:
+            max_Period = a
     else: a=0
-print(maxPeriod)
+print(max_Period)
